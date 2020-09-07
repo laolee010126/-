@@ -17,12 +17,20 @@ const cacheImages = (images) =>
       return Asset.fromModule(image).downloadAsync();
     }
   });
+// function loadAsync(fontFamilyOrFontMap: string | {
+//   [fontFamily: string]: Font.FontSource;
+// }, source?: Font.FontSource): Promise<void>
+// 파라미터에 들어가는 fonts는 font객체로 이루어진 배열입니다
 const cacheFonts = (fonts) => {
   fonts.map((font) => {
     return Font.loadAsync(font);
   });
 };
 console.log(Ionicons.font);
+// log 결과값
+// Object {
+//   "ionicons": 11,
+// }
 
 export default function App() {
   const [isReady, setIsReady] = useState(false);
@@ -33,7 +41,11 @@ export default function App() {
     ]);
     const fonts = cacheFonts([Ionicons.font]);
     console.log(fonts);
-
+    // log 결과값
+    // undefined
+    // cacheFonts
+    // 원하던 결과값
+    // [promise객체]
     return Promise.all([...images]);
   };
   const onFinish = () => {
