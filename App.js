@@ -46,6 +46,7 @@ export default function App() {
     // cacheFonts
     // 원하던 결과값
     // [promise객체]
+    // .
     return Promise.all([...images]);
   };
   const onFinish = () => {
