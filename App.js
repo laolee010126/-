@@ -43,10 +43,9 @@ export default function App() {
     console.log(fonts);
     // log 결과값
     // undefined
-    // cacheFonts
+
     // 원하던 결과값
     // [promise객체]
-    // .
     return Promise.all([...images]);
   };
   const onFinish = () => {
