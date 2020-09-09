@@ -7,7 +7,16 @@ const Stack = createStackNavigator();
 
 export default () => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: 'black',
+          shadowColor: 'black',
+        },
+        headerTintColor: 'white',
+        headerBackTitleVisible: false,
+      }}
+    >
       <Stack.Screen name="Tabs" component={Tabs} />
       <Stack.Screen name="Detail" component={Detail} />
     </Stack.Navigator>

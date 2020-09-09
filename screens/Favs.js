@@ -2,10 +2,12 @@ import { Text, View } from 'react-native';
 
 import React from 'react';
 
-export default Favs = () => {
+const Favs = () => {
   return (
     <View>
       <Text>Favs</Text>
     </View>
   );
 };
+
+export default Favs;
