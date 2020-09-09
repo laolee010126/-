@@ -28,7 +28,7 @@ const Slider = ({ id, vote, title, overview, backdrop_path, poster }) => {
 };
 
 const VoteCotainer = styled.View`
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 `;
 
 const Container = styled.View`
@@ -39,7 +39,7 @@ const Container = styled.View`
 const BG = styled.Image`
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.3;
   position: absolute;
 `;
 

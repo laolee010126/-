@@ -11,19 +11,24 @@ const Title = styled.Text`
   margin-top: 10px;
   margin-bottom: 5px;
 `;
+
 const VerticalContainer = styled.View`
   align-items: center;
-  margin-right: 15px;
+  margin-right: 20px;
+`;
+
+const Container = styled.TouchableOpacity`
+  margin-top: 10px;
 `;
 
 const Vertical = ({ id, vote, title, poster }) => (
-  <TouchableOpacity>
+  <Container>
     <VerticalContainer>
       <Poster url={poster} />
       <Title>{title.length > 10 ? `${title.slice(0, 10)}..` : title}</Title>
       <Vote vote={vote} />
     </VerticalContainer>
-  </TouchableOpacity>
+  </Container>
 );
 
 export default Vertical;
