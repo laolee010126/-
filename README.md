@@ -4,16 +4,13 @@
 
 <img width="384" alt="Screen Shot 2020-09-09 at 9 02 05 PM" src="https://user-images.githubusercontent.com/67942295/92596678-2a550600-f2e1-11ea-82a0-9a2f1420392c.png">
 
-
 #### 상단 Slide component
 ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/67942295/92596415-bf0b3400-f2e0-11ea-849b-eb88567fcb5f.gif)
 
-#### 중간 Popular movies
-#### Vertical component
+#### 중간 Popular movies (Vertical component)
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/67942295/92596338-a4d15600-f2e0-11ea-9755-0c06bb6dde7b.gif)
 
-#### 하단 Coming soom movies
-##### Horizontal component
+#### 하단 Coming soom movies (Horizontal component)
 ![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/67942295/92596855-6d16de00-f2e1-11ea-9f0f-dae6eac0e3dc.gif)
 
 
